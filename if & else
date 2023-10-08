@@ -1,0 +1,28 @@
+idade = 17
+
+if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")
+
+media = 6.5
+
+if media >= 7:
+    print("Aprovado")
+else:
+    if media < 6:
+        print("Reprovado")
+    else:
+        print("Recuperação")
+
+numero = 150
+
+if numero >= 100 and numero <= 200:
+    print("True")
+else:
+    print("False")
+
+if numero == 100 or numero == 200:
+    print("True")
+else:
+    print("False")
