@@ -1,0 +1,12 @@
+nome = input("Digite seu nome: ")
+
+while nome != "sair":
+    nome = input("Digite seu nome novamente ou Sair para fechar o programa: ")
+
+print("Programa fechado!")
+
+numero = 0
+
+while numero < 10:
+    print(numero)
+    numero += 1
