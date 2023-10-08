@@ -1,0 +1,24 @@
+meuVetor = [1, 30, 12, 23, 7, 14]
+
+print(meuVetor[0])
+print(meuVetor[1])
+print(meuVetor[2])
+print(meuVetor[3])
+print(meuVetor[4])
+print(meuVetor[5])
+
+print()
+
+meuVetor[4] = 19
+print(meuVetor[4])
+
+print()
+precoProdutos = range(10)
+print(precoProdutos[9])
+
+print()
+
+for i in range(0, 6):
+    meuVetor[i] = meuVetor[i] * 2
+
+print(meuVetor)
